@@ -1,0 +1,54 @@
+.instagram-post {
+    width: 320px;
+    border: 1px solid  ;
+    border-radius: 8px;
+    font-family: Arial;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    justify-content:space-between 
+}
+
+.user-info {
+    flex-grow: 1;   /* Al estar dentro de un display:flex esto hace que el elemento ocupe todo el espacio disponible dentro del contenedor*/
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.post-img {
+    width: 100%;
+}
+
+.footer {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.icon-bar {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 12px;
+}
+.save-icon {
+    margin-left: auto;  /* Empuja el 4º icono al extremo derecho por lo mismo que en user-info estando dentro de un display:flex*/
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
